@@ -1,13 +1,13 @@
 import React from "react";
 
 import Sidebar from "../../components/sidebar/Sidebar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./main.css";
 import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
+
 import Incident from "../Incident/Incident";
 import View from "../../components/view/View";
-import Success from "../Incident/Success";
+
 const Main = () => {
   return (
     <div className="MainContainer">
