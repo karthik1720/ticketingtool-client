@@ -1,0 +1,45 @@
+.RegisterContainer {
+  height: 100vh;
+  background-color: #ebebe8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RegWrapper {
+  text-align: center;
+  color: #ebebe8;
+  max-width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #31352e;
+}
+
+.RegSpan {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.RegWrapper .RegForm {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+.RegForm > input {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  color: #ebebe8;
+}
+
+.RegForm > button {
+  cursor: pointer;
+  padding: 7px;
+  background-color: #ebebe8;
+  border: none;
+  border-radius: 5px;
+}

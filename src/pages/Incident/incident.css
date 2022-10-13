@@ -1,0 +1,35 @@
+.IncidentContainer {
+  padding: 40px 15% 40px 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.IncidentSections2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+.IncidentSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.IncidentStatus {
+  display: flex;
+  /* justify-content: end; */
+}
+
+.IncidentSubmit {
+  max-width: fit-content;
+}
+
+.IncidentInputLabel {
+  padding-top: 15px;
+}
+.IncidentInput {
+  border: none;
+  background-color: white;
+  border-style: groove;
+  border-radius: 5px;
+  resize: none;
+}

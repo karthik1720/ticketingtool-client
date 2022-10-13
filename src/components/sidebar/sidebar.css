@@ -1,0 +1,62 @@
+.SidebarContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgb(42, 58, 62);
+  position: sticky;
+}
+.Panel {
+  width: 100%;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.Link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.SidebarItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.SidebarItems {
+  text-align: left;
+}
+
+.SidebarCollapse {
+  width: 100%;
+}
+.SidebarCollapse .CollapseButton {
+  width: 100%;
+}
+.SidebarCollapse .CollapseLists {
+  list-style: none;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.SidebarMenu {
+  width: 100%;
+
+  text-align: left;
+}
+.SidebarCollapse2 {
+  display: flex;
+  gap: 5px;
+  padding: 0 20px 0 20px;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid rgb(22, 34, 36);
+  border-bottom: 1px solid rgb(22, 34, 36);
+  height: 40px;
+}
+
+.CollapseList {
+  padding: 5px 0 5px 20px;
+  border-bottom: 0.8px solid rgb(22, 34, 36);
+}
