@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { useEffect } from "react";
+
 import "./register.css";
-import http from "../../../httpService";
+import { httpService as http } from "../../../httpService";
 const Register = () => {
   const [user, setUser] = useState({
     username: "",

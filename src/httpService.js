@@ -16,7 +16,7 @@ axios.interceptors.request.use(
   }
 );
 
-export default {
+export const httpService = {
   get: axios.get,
   post: axios.post,
   put: axios.put,

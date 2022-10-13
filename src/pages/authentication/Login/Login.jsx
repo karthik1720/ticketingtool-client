@@ -1,6 +1,6 @@
 import React from "react";
 import "./login.css";
-import http from "../../../httpService";
+import { httpService as http } from "../../../httpService";
 import { useState } from "react";
 const Login = () => {
   const [user, setUser] = useState({

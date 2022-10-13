@@ -1,18 +1,17 @@
 import React from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import httpService from "../../httpService";
+
+import { httpService } from "../../httpService";
 
 import "./incident.css";
 import Success from "./Success";
 function Incident() {
-  const navigate = useNavigate();
   const [data, setData] = useState({
     title: "",
     description: "",
     priority: "4",
   });
-  const [ticket, setTicket] = useState("");
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setData((prev) => {

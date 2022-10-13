@@ -1,6 +1,6 @@
 import List from "../list/List";
 import "./view.css";
-import httpService from "../../httpService";
+import { httpService } from "../../httpService";
 import { useEffect } from "react";
 import { useState } from "react";
 const View = () => {
@@ -9,7 +9,7 @@ const View = () => {
     httpService.get("/incident/view").then((response) => {
       setDummy(response.data);
     });
-  }, [1]);
+  }, []);
 
   console.log(dummy);
 

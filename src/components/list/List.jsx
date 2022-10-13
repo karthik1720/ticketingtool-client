@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
 import "./list.css";
-import { Link } from "react-router-dom";
-import httpService from "../../httpService";
+
 const List = (props) => {
   return (
     <div className="ListContainer">

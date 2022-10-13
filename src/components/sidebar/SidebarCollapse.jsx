@@ -5,7 +5,7 @@ import { useState } from "react";
 import useCollapse from "react-collapsed";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 function SidebarCollapse(props) {
-  const [isExpanded, setExpanded] = useState(false);
+  const [, setExpanded] = useState(false);
   const { getCollapseProps, getToggleProps } = useCollapse();
 
   return (
