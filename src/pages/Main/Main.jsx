@@ -23,24 +23,6 @@ const Main = () => {
           </Routes>
         </div>
       </div>
-      {/* <Footer /> */}
-
-      {/* <Routes>
-    <Route path="/" element={<MainAsda />}></Route>
-    <Route path="yes" element={<Sidebar></Sidebar>}></Route>
-  </Routes> */}
-
-      {/* <div className="HomeGridRow">
-  <div className="Sidebar">
-  <Sidebar></Sidebar>
-  </div>
-  <div className="Main">
-  <Main></Main>
-  </div>
-  </div>
-  <div className="Footer">
-  <Footer></Footer>
-</div> */}
     </div>
   );
 };
